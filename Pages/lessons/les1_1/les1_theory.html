@@ -1,0 +1,58 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../cssles/lestheory.css">
+    <link href="http://fonts.cdnfonts.com/css/ocr-a-extended" rel="stylesheet">
+    <script src="../jsles/jsles_theory.js"></script>
+    <title>Theory</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Hallo und Herzlich Willkommen zu dem Englischkurs vom EasyToLearn!</h2>
+       
+    </div>
+
+    <div class="firststeps">
+        <p>Bitte Übersetzen Sie die folgende Wörter!</p>
+    </br>
+        <button class="btnmen" onclick="document.location='../../Usermain.php'">Menu</button>
+    </div>
+    
+    <div class="wordstransl">
+        <p class="word">Name - <input id="wtc1" class="wordtocheck" type="text" autocomplete="off" > </p> 
+        <p class="word">You - <input id="wtc2" class="wordtocheck" type="text" autocomplete="off"></p> 
+        <p class="word">Hello - <input id="wtc3" class="wordtocheck" type="text" autocomplete="off" ></p> 
+        <p class="word">How - <input id="wtc4" class="wordtocheck" type="text" autocomplete="off"></p> 
+        <p class="word">Be - <input id="wtc5" class="wordtocheck" type="text" autocomplete="off"></p>
+        <p class="word">Are - <input id="wtc6" class="wordtocheck" type="text" autocomplete="off"></p> 
+        <p class="word">Is - <input id="wtc7" class="wordtocheck" type="text" autocomplete="off"></p> 
+        <p class="word">What - <input id="wtc8" class="wordtocheck" type="text" autocomplete="off"></p> 
+
+        <button class="btncheck" onclick="checkwords()" >Prüfen</button>
+    </div>
+
+    <div class="result"><p id="resulttxt" class="resulttxt"></p></div>
+    <div class="result"><p id="resulttxtno" class="resulttxtno"></p></div>
+    <button class="btntonext" onclick="document.location='../les1.php'">Weiter!</button>
+    <div class="hilfe" onclick="hilfe()"> ? </div>
+    <div class="hilfetext">
+        <ol>
+            <li>Name - <span class="wordhilfetxt"> Name</span> </li>
+            <li>You - <span class="wordhilfetxt">Du</span></li>
+            <li>Hello - <span class="wordhilfetxt">Hallo</span></li>
+            <li>How - <span class="wordhilfetxt">Wie</span></li>
+            <li>Be - <span class="wordhilfetxt">Sein</span></li>
+            <li>Are - <span class="wordhilfetxt">Sind</span></li>
+            <li>Is - <span class="wordhilfetxt">Ist</span></li>
+            <li>What - <span class="wordhilfetxt">Was</span></li>
+          </ol>
+    </div>
+   
+    
+</body>
+</html>

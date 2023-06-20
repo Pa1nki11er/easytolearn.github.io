@@ -1,0 +1,326 @@
+body {
+  
+  
+  
+  overflow: hidden;
+  background: black;  
+  background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
+}
+p{
+	
+	font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	
+    
+ 
+}
+
+.button{
+  font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
+  background-color: #40BDB9;
+  
+  
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 70px;
+  font-size: 25px;
+  margin: 210px 200px;
+  
+  cursor: pointer;
+  
+}
+.button span {
+	cursor: pointer;
+	text-align: center;
+	position: relative;
+
+	top: 0px;
+	color: black;
+	transition: 0.3s;
+
+}
+.button span:after {
+  content: "\2192";
+  position: relative;
+  opacity: 0;
+  font-size: 25px;
+  top: 0px;
+  right: 0px;
+  transition: 0.75s;
+
+}
+.button:hover span {
+  padding-right: 15px;
+
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+
+}
+
+/* herzlich willkommen */
+.title {
+  position: relative;
+  
+  
+  width: 400px;
+  height: 40px;
+  z-index: 1;
+  display: block;
+  justify-content: center;
+  align-items: center;
+
+}
+.butstart{
+	
+	
+
+}
+.spanword {
+  position: absolute;
+  top: 0;
+  font-size: 25px;
+  color: #40BDB9;
+  font-weight: normal;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+span:nth-of-type(1) {
+  left: 0;
+  animation: wave 0.4s ease-in-out infinite alternate 0.05s;
+}
+
+span:nth-of-type(2) {
+  left: 25px;
+  animation: wave 0.4s ease-in-out infinite alternate 0.1s;
+}
+
+span:nth-of-type(3) {
+  left: 50px;
+  animation: wave 0.4s ease-in-out infinite alternate 0.15s;
+}
+
+span:nth-of-type(4) {
+  left: 75px;
+  animation: wave 0.4s ease-in-out infinite alternate 0.2s;
+}
+
+span:nth-of-type(5) {
+  left: 100px;
+  animation: wave 0.4s ease-in-out infinite alternate 0.25s;
+}
+
+span:nth-of-type(6) {
+  left: 125px;
+  animation: wave 0.4s ease-in-out infinite alternate 0.3s;
+}
+
+span:nth-of-type(7) {
+  left: 150px;
+  animation: wave 0.4s ease-in-out infinite alternate 0.35s;
+}
+
+span:nth-of-type(8) {
+  left: 175px;
+  animation: wave 0.4s ease-in-out infinite alternate 0.4s;
+}
+
+span:nth-of-type(9) {
+  left: 200px;
+  animation: wave 0.4s ease-in-out infinite alternate 0.45s;
+}
+
+span:nth-of-type(10) {
+  left: 225px;
+  animation: wave 0.4s ease-in-out infinite alternate 0.5s;
+}
+span:nth-of-type(11) {
+  left: 250px;
+  animation: wave 0.4s ease-in-out infinite alternate 0.55s;
+}
+span:nth-of-type(12) {
+  left: 275px;
+  animation: wave 0.4s ease-in-out infinite alternate 0.6s;
+}
+span:nth-of-type(13) {
+  left: 300px;
+  animation: wave 0.4s ease-in-out infinite alternate 0.65s;
+}
+span:nth-of-type(14) {
+  left: 325px;
+  animation: wave 0.4s ease-in-out infinite alternate 0.7s;
+}
+span:nth-of-type(15) {
+  left: 350px;
+  animation: wave 0.4s ease-in-out infinite alternate 0.75s;
+}
+span:nth-of-type(16) {
+  left: 375px;
+  animation: wave 0.4s ease-in-out infinite alternate 0.8s;
+}
+span:nth-of-type(17) {
+  left: 400px;
+  animation: wave 0.4s ease-in-out infinite alternate 0.85s;
+}
+span:nth-of-type(18) {
+  left: 425px;
+  animation: wave 0.4s ease-in-out infinite alternate 0.9s;
+}
+span:nth-of-type(19) {
+  left: 450px;
+  animation: wave 0.4s ease-in-out infinite alternate 0.95s;
+}
+
+@keyframes wave {
+  0% {
+    top: 0%;
+  }
+  100% {
+    top: 100%;
+  }
+}
+
+/*end of herzlichwillkomen*/
+/* start background*/
+.wordincirc{
+    color: #40BDB9; 
+    margin: 0;
+    
+    
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-weight: 100px;
+   
+             /* 2 */
+  ;                         /* 3 */
+   
+   
+}
+
+.circles{
+    position: relative;
+    top: 15px;
+    
+    width: 100%;
+    height: 100%;
+    
+}
+
+.circles li{
+   	height: 20px;
+   	display: flex;
+   	align-items: center;
+  	justify-content: center;
+    position: relative;  
+    list-style: none;
+    width: 20px;
+    
+    background: rgba(255, 255, 255, 0.5);
+    animation: animate 10s linear infinite;
+    bottom: -150px;
+    
+    
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 1s;
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 7s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 4s;
+    animation-duration:7s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 5s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 6s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 7s;
+    animation-duration: 7s;
+}
+
+.circles li:nth-child(9){
+	
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 8s;
+    animation-duration: 7s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 7s;
+}
+.circles li:nth-child(11){
+    left: 11%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 7s;
+}
+
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+

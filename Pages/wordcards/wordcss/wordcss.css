@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: "OCR A Extended";
+}
+body{
+    background-color: black;
+    color: black;
+    
+}
+.plus{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 300px;
+    background-color: aqua;
+    border-radius: 100%;
+}
+.label {
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    display: block;
+    width: 230px;
+    height: 100px;
+    
+    margin-left: 120px;
+    margin-top: 80px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.card {
+    
+    height: 100%;
+    width: 100%;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: all 600ms;
+    transition: all 600ms;
+    z-index: 20;
+}
+
+    .card div {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: aqua;
+        text-align: center;
+        
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        border-radius: 2px;
+    }
+
+    .card .back {
+        background: #222;
+        color: aqua;
+        -webkit-transform: rotateX(180deg);
+        transform: rotateX(180deg);
+    }
+
+
+
+.boxin {
+    display: none;
+}
+
+:checked + .card {
+    transform: rotateX(180deg);
+    -webkit-transform: rotateX(180deg);
+}
+.wordfront{
+    background: aqua;
+    text-align: center;
+    font-size: 17px;
+    position: relative;
+    top: 40px;
+}
+.wordback{
+    text-align: center;
+    background: aqua;
+    font-size: 17px;
+    position: relative;
+    top: 40px;
+    
+}
+.btncreate{
+    position: absolute;
+    height: 20px;
+    width: 200px;
+    left: 1300px;
+    background-color: aqua;
+}
+.btncreate:hover{
+    background-color: #2ce8d2 ;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btnsave{
+    position: absolute;
+    font-size: 20px;
+    height: 40px;
+    width: 200px;
+    left: 600px;
+    background-color: aqua;
+}
+.btnsave:hover{
+    background-color: #2ce8d2 ;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.card1{
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    display: block;
+    width: 530px;
+    height: 300px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.btnmenu{
+    background: #00ffea;
+	text-decoration: none;
+	position: absolute;
+	left: 200px;
+	border-style: none;
+	border-radius: 5px;
+	height: 35px;
+	width: 70px;
+}
+.btnmenu:hover{
+    cursor: pointer;
+    background-color: #2ce8d2 ;
+    
+    
+}

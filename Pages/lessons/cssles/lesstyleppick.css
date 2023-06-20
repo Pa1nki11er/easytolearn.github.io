@@ -1,0 +1,342 @@
+body{
+    background-color: black;
+    font-family: "OCR A Extended";
+}
+.all_boxes{
+    
+    color: aqua;
+    font-size: 30px;
+    position: absolute;
+    left: 400px;
+    text-align: center;
+    top: 100px;
+    border-radius: 10px;
+}
+.all_boxesger{
+   
+    color: aqua;
+    font-size: 30px;
+    position: absolute;
+    left: 350px;
+    text-align: center;
+    top:100px;
+    border-radius: 10px;
+}
+.w1{
+    width: 85px;
+    height: 45px;
+    background-color: #e826fa;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    left: 200px;
+    text-align: center;
+    
+}
+.w1.active{
+    visibility: hidden;
+	transition: 0.5s;
+}
+
+.w2{
+    position: relative;
+    left: 200px;
+    width: 85px;
+    height: 45px;
+    background-color: #e826fa;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.w2.active{
+    visibility: hidden;
+	transition: 0.5s;
+}
+.w3{
+    position: relative;
+    left: 200px;
+    width: 85px;
+    height: 45px;
+    border-radius: 10px;
+    background-color:#e826fa;
+    cursor: pointer;
+}
+.w3.active{
+    visibility: hidden;
+	transition: 0.5s;
+}
+.w4{
+    position: relative;
+    
+    left: 400px;
+    width: 85px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #e826fa;
+    cursor: pointer;
+}
+.w4.active{
+    visibility: hidden;
+	transition: 0.5s;
+}
+
+.w1g{
+    width: 85px;
+    height: 45px;
+    background-color: #e826fa;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    left: 600px;
+    
+    text-align: center;
+    
+}
+.w1g.active{
+    visibility: hidden;
+	transition: 0.5s;
+}
+
+.w2g{
+    position: relative;
+    left: 600px;
+    
+    width: 85px;
+    height: 45px;
+    background-color: #e826fa;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.w2g.active{
+    visibility: hidden;
+	transition: 0.5s;
+}
+.w3g{
+    position: relative;
+   
+    left: 600px;
+    width: 85px;
+    height: 45px;
+    border-radius: 10px;
+    background-color:#e826fa;
+    cursor: pointer;
+}
+.w3g.active{
+    visibility: hidden;
+	transition: 0.5s;
+}
+.w4g{
+    position: relative;
+    
+    left: 600px;
+    width: 85px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #e826fa;
+    cursor: pointer;
+}
+.w4g.active{
+    visibility: hidden;
+	transition: 0.5s;
+}
+
+
+.sentence{
+    text-align: center;
+    transition: 0.5;
+    border-radius: 5px;
+    height: 200px;
+    width: 400px;
+    left: 600px;
+    top: 300px;
+    position: absolute;
+    color: aqua;
+    cursor: default;
+    font-size: 30px;
+    background-color: #e826fa;
+}
+.congtatulations{
+    transition: 0.5;
+    color: lime;
+    font-size: 30px;
+    top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    position: absolute;
+    text-decoration: none;
+    background-color: #60d4ca;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+    font-family: "OCR A Extended";
+    
+}
+.btntonext{
+    left: 1100px;
+    top: 500px;
+    visibility: hidden;
+}
+.btntonext:hover{
+    box-shadow: 0 0 5px #60d4ca,
+                0 0 25px #60d4ca,
+                0 0 50px #60d4ca,
+                0 0 200px #60d4ca;
+}
+.btntonext.active{
+    visibility: visible;
+	transition: 0.5s;
+}
+
+.btnmen{
+	
+	background: #60d4ca;
+	text-decoration: none;
+	position: absolute;
+	left: 200px;
+	border-style: none;
+	border-radius: 5px;
+	height: 35px;
+	width: 70px;
+	font-family: "OCR A Extended";
+	
+}
+.btnmen:hover{
+	background: #60d4ca;
+	transition: 0.5s;
+    color: #050801;
+    box-shadow: 0 0 5px #60d4ca,
+                0 0 25px #60d4ca,
+                0 0 50px #60d4ca,
+                0 0 200px #60d4ca;
+}
+button:active, button:focus {
+    outline: none !important;
+  }
+  button::-moz-focus-inner {
+    border: 0 !important;
+  }
+.btnremove{
+    position: absolute;
+    left: 900px;
+    top: 600px;
+}
+.btncheck{
+    position: absolute;
+    left: 750px;
+    top: 550px;
+    width: 80px;
+    height: 40px;
+}
+
+.words{
+    color: aliceblue;
+}
+.btnremove:hover{
+    background: #60d4ca;
+	transition: 0.5s;
+    color: #050801;
+    box-shadow: 0 0 5px #60d4ca,
+                0 0 25px #60d4ca,
+                0 0 50px #60d4ca,
+                0 0 200px #60d4ca;
+}
+.btncheck:hover{
+    background: #60d4ca;
+	transition: 0.5s;
+    color: #050801;
+    box-shadow: 0 0 5px #60d4ca,
+                0 0 25px #60d4ca,
+                0 0 50px #60d4ca,
+                0 0 200px #60d4ca;
+}
+.w1:hover{
+    transition: 0.5s;
+    box-shadow: 0 0 5px #e826fa,
+    0 0 25px #e826fa,
+    0 0 50px #e826fa,
+    0 0 200px #e826fa;
+}
+.w2:hover{
+    transition: 0.5s;
+    box-shadow: 0 0 5px #e826fa,
+    0 0 25px #e826fa,
+    0 0 50px #e826fa,
+    0 0 200px #e826fa;
+}
+.w3:hover{
+    transition: 0.5s;
+    box-shadow: 0 0 5px #e826fa,
+    0 0 25px #e826fa,
+    0 0 50px #e826fa,
+    0 0 200px #e826fa;
+}
+.w4:hover{
+    transition: 0.5s;
+    box-shadow: 0 0 5px #e826fa,
+    0 0 25px #e826fa,
+    0 0 50px #e826fa,
+    0 0 200px #e826fa;
+}
+.w1g:hover{
+    transition: 0.5s;
+    box-shadow: 0 0 5px #e826fa,
+    0 0 25px #e826fa,
+    0 0 50px #e826fa,
+    0 0 200px #e826fa;
+}
+.w2g:hover{
+    transition: 0.5s;
+    box-shadow: 0 0 5px #e826fa,
+    0 0 25px #e826fa,
+    0 0 50px #e826fa,
+    0 0 200px #e826fa;
+}
+.w3g:hover{
+    transition: 0.5s;
+    box-shadow: 0 0 5px #e826fa,
+    0 0 25px #e826fa,
+    0 0 50px #e826fa,
+    0 0 200px #e826fa;
+}
+.w4g:hover{
+    transition: 0.5s;
+    box-shadow: 0 0 5px #e826fa,
+    0 0 25px #e826fa,
+    0 0 50px #e826fa,
+    0 0 200px #e826fa;
+}
+.how{
+    cursor: pointer;
+    position: relative;
+    left: 300px;
+    top: 200px;
+    width: 85px;
+    height: 45px;
+    background-color: #e826fa;
+    border-radius: 10px;
+}
+.are{
+    cursor: pointer;
+    position: relative;
+    left: 200px;
+    top: 120px;
+    width: 85px;
+    height: 45px;
+    background-color: #e826fa;
+    border-radius: 10px;
+}
+.you{
+    cursor: pointer;
+    position: relative;
+    left: 400px;
+    top: 50px;
+    width: 85px;
+    height: 45px;
+    background-color: #e826fa;
+    border-radius: 10px;
+}

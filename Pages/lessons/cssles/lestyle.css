@@ -1,0 +1,225 @@
+body{
+    background-color: black;
+    font-family: "OCR A Extended";
+}
+.w1{
+    width: 85px;
+    height: 45px;
+    background-color: #e826fa;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    left: 300px;
+    top: 200px;
+    text-align: center;
+    
+}
+.all_boxes{
+    color: aqua;
+    font-size: 30px;
+    position: absolute;
+    left: 400px;
+    text-align: center;
+    
+    border-radius: 10px;
+}
+.w2{
+    position: relative;
+    left: 200px;
+    top: 120px;
+    width: 85px;
+    height: 45px;
+    background-color: #e826fa;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.w3{
+    position: relative;
+    top: 40px;
+    left: 500px;
+    width: 85px;
+    height: 45px;
+    border-radius: 10px;
+    background-color:#e826fa;
+    cursor: pointer;
+}
+.w4{
+    position: relative;
+    top: -40px;
+    left: 400px;
+    width: 85px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #e826fa;
+    cursor: pointer;
+}
+.sentence{
+    text-align: center;
+    transition: 0.5;
+    border-radius: 5px;
+    height: 200px;
+    width: 400px;
+    left: 600px;
+    top: 300px;
+    position: absolute;
+    color: aqua;
+    cursor: default;
+    font-size: 30px;
+    background-color: #e826fa;
+}
+.congtatulations{
+    transition: 0.5;
+    color: lime;
+    font-size: 30px;
+    top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    position: absolute;
+    text-decoration: none;
+    background-color: #60d4ca;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+    font-family: "OCR A Extended";
+    
+}
+.btntonext{
+    left: 1100px;
+    top: 560px;
+    visibility: hidden;
+}
+.btntonext:hover{
+    box-shadow: 0 0 5px #60d4ca,
+                0 0 25px #60d4ca,
+                0 0 50px #60d4ca,
+                0 0 200px #60d4ca;
+}
+.btntonext.active{
+    visibility: visible;
+	transition: 0.5s;
+}
+
+.btnmen{
+	
+	background: #60d4ca;
+	text-decoration: none;
+	position: absolute;
+	left: 200px;
+	border-style: none;
+	border-radius: 5px;
+	height: 35px;
+	width: 70px;
+	font-family: "OCR A Extended";
+	
+}
+.btnmen:hover{
+	background: #60d4ca;
+	transition: 0.5s;
+    color: #050801;
+    box-shadow: 0 0 5px #60d4ca,
+                0 0 25px #60d4ca,
+                0 0 50px #60d4ca,
+                0 0 200px #60d4ca;
+}
+button:active, button:focus {
+    outline: none !important;
+  }
+  button::-moz-focus-inner {
+    border: 0 !important;
+  }
+.btnremove{
+    position: absolute;
+    left: 900px;
+    top: 600px;
+}
+.btncheck{
+    position: absolute;
+    left: 750px;
+    top: 550px;
+    width: 80px;
+    height: 40px;
+}
+
+.words{
+    color: aliceblue;
+}
+.btnremove:hover{
+    background: #60d4ca;
+	transition: 0.5s;
+    color: #050801;
+    box-shadow: 0 0 5px #60d4ca,
+                0 0 25px #60d4ca,
+                0 0 50px #60d4ca,
+                0 0 200px #60d4ca;
+}
+.btncheck:hover{
+    background: #60d4ca;
+	transition: 0.5s;
+    color: #050801;
+    box-shadow: 0 0 5px #60d4ca,
+                0 0 25px #60d4ca,
+                0 0 50px #60d4ca,
+                0 0 200px #60d4ca;
+}
+.w1:hover{
+    transition: 0.5s;
+    box-shadow: 0 0 5px #e826fa,
+    0 0 25px #e826fa,
+    0 0 50px #e826fa,
+    0 0 200px #e826fa;
+}
+.w2:hover{
+    transition: 0.5s;
+    box-shadow: 0 0 5px #e826fa,
+    0 0 25px #e826fa,
+    0 0 50px #e826fa,
+    0 0 200px #e826fa;
+}
+.w3:hover{
+    transition: 0.5s;
+    box-shadow: 0 0 5px #e826fa,
+    0 0 25px #e826fa,
+    0 0 50px #e826fa,
+    0 0 200px #e826fa;
+}
+.w4:hover{
+    transition: 0.5s;
+    box-shadow: 0 0 5px #e826fa,
+    0 0 25px #e826fa,
+    0 0 50px #e826fa,
+    0 0 200px #e826fa;
+}
+
+
+.hilfe{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    background-color: #60d4ca;
+    top: 500px;
+    margin-top: 800;
+    margin-left: 1080px;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center;
+    visibility: hidden;
+}
+.hilfe.active{
+    visibility: visible;
+}
+.hilfeimage{
+    position: absolute;
+    top: 80px;
+    left: 1100px;
+    border-radius: 3px;
+    visibility: hidden;
+    overflow: hidden;
+}

@@ -1,0 +1,250 @@
+body{
+	background: black;
+	overflow: hidden;
+	 justify-content: center;
+}
+input{
+	position: absolute;
+	transition: 0.5s;
+	color: black;
+	background:#60d4ca;
+	padding: 5px;
+}
+.reg{
+	font-family: "OCR A Extended";
+	padding: 5px;
+	background:#60d4ca;
+	text-shadow: 0 0 1px #60d4ca, 0 0 10px #60d4ca, 0 0 20px #60d4ca, 0 0 40px #60d4ca, 0 0 80px #60d4ca ;
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+	position: relative;
+	transition: 0.5s;
+	left: 695px;
+	top: 300px;
+	border-radius: 5px;
+	animation-name: reganim;
+	animation-duration: 1s;
+}
+.reg:hover{
+	background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #60d4ca,
+                0 0 25px #60d4ca,
+                0 0 50px #60d4ca,
+                0 0 200px #60d4ca;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+.regwow{
+	position: absolute;
+	padding: 10px 20px;
+	border: 0;
+	background-color: #60d4ca;
+	top: 450px;
+	left: 680px;
+	text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+    animation-name: logreg; 
+    animation-duration: 1s;
+}
+.regwow:hover{
+	background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #60d4ca,
+                0 0 25px #60d4ca,
+                0 0 50px #60d4ca,
+                0 0 200px #60d4ca;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
+.pw{
+	
+	left: 690px;
+	top: 340px;
+	animation-name: logpas; 
+    animation-duration: 1s;
+
+}
+.reppw{
+	left: 690px;
+	top: 380px;
+	transition: 0.5s;
+	animation-name: reppas; 
+    animation-duration: 1s;
+}
+.reppw:hover{
+	
+    color: #050801;
+    box-shadow: 0 0 5px #60d4ca,
+                0 0 25px #60d4ca,
+                0 0 50px #60d4ca,
+                0 0 200px #60d4ca;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+.em{
+	left: 690px;
+	top: 300px;
+	animation-name: logem; 
+    animation-duration: 1s;
+
+}
+.un{
+	position: absolute;
+	top: 260px;
+	left: 690px;
+	animation-name: unanim;
+	animation-duration: 1s;
+}
+.un:hover{
+	
+    color: #050801;
+    box-shadow: 0 0 5px #60d4ca,
+                0 0 25px #60d4ca,
+                0 0 50px #60d4ca,
+                0 0 200px #60d4ca;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+.em:hover{
+	box-shadow: 0 0 5px #60d4ca,
+                0 0 25px #60d4ca,
+                0 0 50px #60d4ca,
+                0 0 200px #60d4ca;
+}
+.pw:hover {
+  box-shadow: 0 0 5px #60d4ca,
+                0 0 25px #60d4ca,
+                0 0 50px #60d4ca,
+                0 0 200px #60d4ca;
+ }
+.logw{
+	position: absolute;
+	padding: 10px 20px;
+	border: 0;
+	background-color: #60d4ca;
+	top: 400px;
+	left: 727px;
+	text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+    animation-name: log; 
+    animation-duration: 1s;
+    
+}
+.logw:hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #60d4ca,
+                0 0 25px #60d4ca,
+                0 0 50px #60d4ca,
+                0 0 200px #60d4ca;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+.gotolog{
+	position: absolute;
+	top:550px;
+	left: 41% ;
+	color: #60d4ca;
+	font-family: "OCR A Extended";
+	text-decoration: none;
+}
+
+.jtlw{
+	display: block;
+	position: relative;
+	top: 0px;
+	left: 570px;
+	color: #60d4ca;
+	font-size: 60px;
+	font-family: "OCR A Extended";
+	animation-name: etl; 
+    animation-duration: 1s;
+	text-shadow: 0 0 1px #60d4ca, 0 0 10px #60d4ca, 0 0 20px #60d4ca, 0 0 40px #60d4ca, 0 0 80px #60d4ca ;
+}
+.msg{
+	position: absolute;
+	border:2px solid #60d4ca;
+	border-radius: 3px;
+	font-family: "OCR A Extended";
+	text-align: center;
+	margin:0;
+	padding: 10px;
+	color: #60d4ca;
+	font-weight: bold;
+	align-items: center;
+	justify-content: center;
+	left: 635px;
+	top: 590px;
+	
+}
+
+@keyframes etl {
+	0%{
+		top: -200px;
+	}
+	100%{
+		top: 0px;
+	}
+}
+@keyframes log {
+	0%{
+		top: 800px;
+	}
+	100%{
+		top: 400px;
+	}
+}
+@keyframes logpas {
+	0%{
+		top: 800px;
+	}
+	100%{
+		top: 340px;
+	}
+}
+@keyframes logem {
+	0%{
+		top: 800px;
+	}
+	100%{
+		top: 300px;
+	}
+}
+@keyframes reganim {
+	0%{
+		top: 800px;
+	}
+	100%{
+		top: 300px;
+	}
+}
+@keyframes unanim{
+	0%{
+		top: 800px;
+	}
+	100%{
+		top:260px;
+	}
+}
+@keyframes reppas{
+	0%{
+		top: 800px;
+	}
+	100%{
+		top:380px;
+	}
+}
+@keyframes logreg {
+	0%{
+		top: 800px;
+	}
+	100%{
+		top: 450px;
+	}
+}
